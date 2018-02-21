@@ -13,7 +13,7 @@ Add formatted address, latitude and longitude columns to a CSV that has address 
 
 * SOURCE_FILE_PATH - Path to the source CSV file
 * TARGET_FILE_PATH - Path to the generated CSV file
-* ADDRESS_COLUMNS - Comma separated names of the columns used to build the address
+* ADDRESS_COLUMNS - Comma separated names of the columns used to build the address (in order)
 * ADDRESS_SUFFIX - Optional suffix to add to all addresses before geocoding
 * GOOGLE_MAPS_API_KEY - Your google maps API
 * BATCH_SIZE - Number of concurrent requests to google maps
