@@ -18,3 +18,7 @@ Add formatted address, latitude and longitude columns to a CSV that has address 
 * GOOGLE_MAPS_API_KEY - Your google maps API
 * BATCH_SIZE - Number of concurrent requests to google maps
 * WAIT_BETWEEN_BATCHES - Time to wait beteen batches
+
+### CSV Format
+
+The CSV must have commas (,) as separators and the text cells must be wrapped in double quotes (");
