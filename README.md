@@ -1,4 +1,4 @@
-# csv-Geocoder
+# csv-geocoder
 
 Add formatted address, latitude and longitude columns to a CSV that has address data in single or multiple columns.
 
