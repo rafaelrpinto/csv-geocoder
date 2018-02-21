@@ -2,10 +2,10 @@
 
 Add formatted address, latitude and longitude columns to a CSV that has address data in single or multiple columns.
 
-### Setup
+### Executing
 
 * `git checkout https://github.com/rafaelrpinto/csv-geocoder`
-* `yarn install`
+* `cd csv-geocoder && yarn install`
 * Rename `.env.sample` file to `.env` and change the properties as described below
 * `yarn start`
 
