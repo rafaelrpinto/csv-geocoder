@@ -20,6 +20,7 @@ const {
 const parser = new CsvParser(SOURCE_FILE_PATH);
 // $FlowFixMe
 const writer = new CsvWriter(TARGET_FILE_PATH);
+// $FlowFixMe
 const geocoder = new Geocoder(GOOGLE_MAPS_API_KEY);
 
 async function processRecord(record: Object): Promise<void> {

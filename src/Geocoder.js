@@ -11,7 +11,7 @@ export default class Geocoder {
    * Constructor.
    * @param {string} googleApiKey Google API key with geocode enabled.
    */
-  constructor(googleApiKey) {
+  constructor(googleApiKey: string) {
     this.client = googleMaps.createClient({
       key: googleApiKey,
       Promise,
