@@ -1,8 +1,23 @@
 {
   "name": "csv-geocoder",
   "version": "1.0.0",
-  "description": "",
+  "description": "Add formatted address, latitude and longitude columns to a CSV that has address data in single or multiple columns.",
   "main": "src/index.js",
+  "author": "Rafael Pinto <meuemail@posteo.pt>",
+  "readmeFilename": "README.md",
+  "license": "MIT",
+  "url": "https://github.com/rafaelrpinto/csv-geocoder",
+  "bugs": {
+    "url": "https://github.com/rafaelrpinto/csv-geocoder/issues",
+    "email": "raprp@posteo.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafaelrpinto/csv-geocoder.git"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
   "scripts": {
     "start": "babel-node src/index.js"
   },
